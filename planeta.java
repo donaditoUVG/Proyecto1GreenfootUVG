@@ -1,10 +1,8 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class planeta here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * El objeto Planeta conserva su díametro y solo varía la posición en 
+ * la que aparece.
  */
 public class planeta extends Actor
 {
@@ -19,8 +17,7 @@ public class planeta extends Actor
     }
     
     /**
-     * Act - do whatever the planeta wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * Método Auxiliar: Aumentar Dificultad de acuerdo con la puntuación
      */
     public void act()
     {

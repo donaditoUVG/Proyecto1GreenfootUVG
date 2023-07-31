@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=contador
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ contador\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ El\ contador\ del\ Juego\ muestra\ el\ nivel\ y\ aumenta\ la\ dificultad\r\n\ \r\n\ Donado\ y\ Sebast\u00EDan\r\n\ Por\ cada\ conjunto\ de\ planetas\ esquivados\ se\ le\ suman\ veinte\ puntos.\r\n
 comment1.params=
 comment1.target=contador()
 comment2.params=prefix
