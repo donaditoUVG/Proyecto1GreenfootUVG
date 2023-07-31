@@ -1,9 +1,9 @@
 #BlueJ class context
 comment0.target=planeta
-comment0.text=\r\n\ El\ objeto\ Planeta\ conserva\ su\ d\u00EDametro\ y\ solo\ var\u00EDa\ la\ posici\u00F3n\ en\ \r\n\ la\ que\ aparece.\r\n
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ planeta\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=v
 comment1.target=planeta(int)
 comment2.params=
 comment2.target=void\ act()
-comment2.text=\r\n\ M\u00E9todo\ Auxiliar\:\ Aumentar\ Dificultad\ de\ acuerdo\ con\ la\ puntuaci\u00F3n\r\n
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ planeta\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
 numComments=3

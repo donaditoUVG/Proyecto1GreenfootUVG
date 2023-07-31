@@ -1,10 +1,10 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * El contador del Juego muestra el nivel y aumenta la dificultad
+ * Write a description of class contador here.
  * 
- * Donado y Sebastían
- * Por cada conjunto de planetas esquivados se le suman veinte puntos.
+ * @author (your name) 
+ * @version (a version number or a date)
  */
 public class contador extends Actor
 {
@@ -24,8 +24,8 @@ public class contador extends Actor
         setImage(new GreenfootImage(stringLength, 24));
         GreenfootImage image = getImage();
         Font font = image.getFont();
-        image.setFont(font.deriveFont(25.0F));  // Fuente más legible
-        image.setColor(Color.RED);
+        image.setFont(font.deriveFont(24.0F));  // use larger font
+        image.setColor(Color.WHITE);
         
         updateImage();
     }

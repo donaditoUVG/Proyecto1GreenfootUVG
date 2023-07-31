@@ -1,9 +1,10 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * El objeto nave puede moverse a lo largo del plano R2.
+ * Write a description of class nave here.
  * 
- * Le queremos colocar músicaaaa
+ * @author (your name) 
+ * @version (a version number or a date)
  */
 public class nave extends Actor
 {
@@ -18,19 +19,15 @@ public class nave extends Actor
     }
     
     /**
-     * Método Auxiliar para moverse con las teclas "WASD"
+     * Act - do whatever the nave wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act()
     {
         // Add your action code here.
-        if(Greenfoot.isKeyDown("space")){
-            Greenfoot.playSound("beuk.mp3");
-        
-        }
         if(Greenfoot.isKeyDown("d")){
             if(getX()< 500)
             setLocation(getX() + speed, getY());
-            
         }  
         if(Greenfoot.isKeyDown("a")){
             if(getX() > 100)
@@ -54,7 +51,6 @@ public class nave extends Actor
         {
             getWorld().removeObject(collided);
             getWorld().removeObject(this);
-            Greenfoot.playSound("restchemistryNightcore.mp3");
             Greenfoot.stop();
         }
     }
